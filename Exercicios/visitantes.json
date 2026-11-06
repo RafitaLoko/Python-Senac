@@ -1,0 +1,18 @@
+[
+    {
+        "nome": "Jorge",
+        "data_nascimento": "12/12/1990",
+        "cpf": "124567854121",
+        "tipo_ingresso": "VIP",
+        "data_visita": "12/11/2026",
+        "numero_ingresso": "12ce1f91-f192-4e2d-9eeb-e28d97918520"
+    },
+    {
+        "nome": "Caneta azul",
+        "data_nascimento": "03/04/1950",
+        "cpf": "121209094569",
+        "tipo_ingresso": "Premium",
+        "data_visita": "25/12/2026",
+        "numero_ingresso": "9db67c54-49bd-4e66-b2e7-f6a6f6e0426b"
+    }
+]

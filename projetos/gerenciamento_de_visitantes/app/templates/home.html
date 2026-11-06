@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Pagina inicial
+{% endblock %}
+
+{% block content %}
+<div class="d-flex text-center">
+
+    <div class="col">
+        <h3>Página inicial - Gerenciamento de visitantes</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit sint et sequi est reiciendis, qui similique
+            dolore modi nobis quibusdam minima illo recusandae deleniti fugit soluta hic doloremque quis enim. Lorem
+            ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fuga voluptate at quod ipsam, facilis laborum
+            repellendus aliquid magni dolore velit blanditiis modi in quia quas recusandae placeat doloribus dicta!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus deleniti repudiandae laborum corrupti unde
+            cumque odio molestiae nostrum velit? Numquam eos ratione quos quaerat ullam, illum rerum quisquam facilis
+            laborum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, beatae eius tempore alias non dicta,
+            voluptatibus excepturi dolorem quis corrupti vel veritatis cumque. Neque facilis nemo facere aspernatur,
+            laborum asperiores?</p>
+
+        <a class="btn btn-outline-primary" href="visitors/"> Ver visitantes</a>
+    </div>
+
+    <div class="col d-flex justify-content-center align-items-center">
+        <img src="{% static 'visitors/images/banner-home.png' %}" alt="Banner Oktoberfest">
+    </div>
+
+
+
+
+</div>
+{% endblock %}

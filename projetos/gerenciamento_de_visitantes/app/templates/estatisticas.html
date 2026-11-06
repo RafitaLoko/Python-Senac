@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Estatísticas
+{% endblock %}
+
+{% block content %}
+    <h2>Estatísticas</h2>
+    <p>Informações sobre os visitantes do parque.</p>
+    <div class="d-flex text-center flex gap-3">
+        <div class="col d-flex justify-content-center align-items-center">
+            
+        </div>
+    
+
+    <div class="card card-custom p-2 mb-4 border border-2 border-danger">
+        <div class="d-flex justify-content-between">
+                <h5> Total de visitantes </h5>
+                
+                <h4>
+                    <i class="bi bi-person"></i>
+                </h4>
+
+        <div>
+            <p class="fs-4">{{ total_visitors }}</p>
+        </div>
+                
+
+        </div>
+
+    </div>
+
+    <div class="card card-custom p-2 mb-4 border border-2 border-danger">
+        <div class="d-flex justify-content-between">
+                <h5>Ingressos normais</h5>
+                
+                <h4>
+                    <i class="bi bi-ticket"></i>
+                </h4>
+
+                 <div>
+            <p class="fs-4">{{ normal_tickets }}</p>
+        </div>
+
+        </div>
+    </div>
+
+        <div class="card card-custom p-2 mb-4 border border-2 border-danger">
+        <div class="d-flex justify-content-between">
+                <h5>Ingressos VIPS</h5>
+                
+                <h4>
+                    <i class="bi bi-ticket-detailed"></i>
+                </h4>
+
+                 <div>
+            <p class="fs-4">{{ vip_tickets }}</p>
+        </div>
+
+            </div>
+
+        </div>
+
+        <div class="card card-custom p-2 mb-4 border border-2 border-danger">
+        <div class="d-flex justify-content-between">
+                <h5>Ingressos Premium</h5>
+                
+                <h4>
+                    <i class="bi bi-ticket-detailed-fill"></i>
+                </h4>
+
+                 <div>
+            <p class="fs-4">{{ premium_tickets }}</p>
+        </div>
+
+            </div>
+
+        </div>
+
+        <div class="card card-custom p-2 mb-4 border border-2 border-danger">
+        <div class="d-flex justify-content-between">
+                <h5>Média de idade dos visitantes</h5>
+                
+                <h4>
+                    <i class="bi bi-calendar-date"></i>
+                </h4>
+
+                 <div>
+            <p class="fs-4">{{ average_age }} Anos</p>
+        </div>
+
+            </div>
+
+        </div>
+
+
+    </div>    
+    
+{% endblock %}

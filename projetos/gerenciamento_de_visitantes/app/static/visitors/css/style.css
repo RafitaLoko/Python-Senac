@@ -1,0 +1,28 @@
+/*  estilizando pela Tag
+a {
+    width: 120px;
+}
+
+estilizando pela Tag
+button{
+    width: 120px;
+}
+
+estilizando pelo Id
+#sticket_type{
+    color: black;
+} */
+
+
+/* estilizando pela Classe */
+
+.btn-custom {
+    width: 130px;
+    height: 40px;
+}
+
+.card-custom {
+    width: 300%;
+    height: 200%;
+    
+}
